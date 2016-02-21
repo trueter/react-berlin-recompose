@@ -1,0 +1,31 @@
+<h2>redux-redux/connect II</h2>
+
+
+
+<pre>
+<code>function connect(mapStateToProps, ...) {
+
+    return function wrapWithConnect(WrappedComponent) {
+        class Connect extends Component {
+
+        constructor(props, context) {
+
+            this.store = props.store || context.store
+
+            const storeState = this.store.getState()
+            this.state = { storeState }
+        }
+
+        render() {
+            const props = reduxIsAwesome()
+            return createElement(WrappedComponent, props)
+    }
+}
+
+</code></pre>
+
+
+
+<p>
+    https://egghead.io/series/getting-started-with-redux
+</p>

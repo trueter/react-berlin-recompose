@@ -1,0 +1,35 @@
+<h2>Terminology</h2>
+
+<ul>
+    <li>
+        <p><pre>
+<code>type ReactText = string | number</code></pre>
+    </li>
+    <li>
+        <p><pre>
+<code>type ReactNode = ReactElement | ReactText | ReactFragment</code></pre>
+    </li>
+    <li>
+        <p><pre>
+<code>type ReactElement = ReactComponentElement | ReactDOMElement</code></pre>
+    </li>
+    <li>
+        <p><pre>
+<code>type ReactDOMElement = {
+    type : string,
+    props : {
+        children : ReactNodeList,
+        className : string,
+        ...
+    },
+    key : string | boolean | number | null,
+    ref : string | null
+}</code>
+        </pre>
+    </li>
+
+</ul>
+<small>
+    Source: https://gist.github.com/sebmarkbage/fcb1b6ab493b0c77d589
+</small>
+

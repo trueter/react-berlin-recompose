@@ -1,3 +1,4 @@
-##  Me
+##  Torsten Rüter
 
-This is a new Markdown slide
+- CTO & Co-Founder at [Pixsy](https://pixsy.com)
+- React & Redux Enthusiast

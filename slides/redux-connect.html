@@ -1,0 +1,18 @@
+<h2>react-redux/connect</h2>
+
+<pre>
+
+<code class="js">class AddTodo extends React.Component {
+    render() {
+        return (
+            <span>Hi { this.props.user }!</span>
+        )
+}
+function mapStateToProps( state => ({ user: state.authStore.user })
+AddTodo = connect( mapStateToProps )( AddTodo )
+
+    </code>
+</pre>
+
+
+

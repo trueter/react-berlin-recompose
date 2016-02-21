@@ -1,0 +1,38 @@
+<h2>Higher Order Components</h2>
+
+<ul class="list-unstyled">
+    <li class="fragment">
+        $$f: \unicode{x2115} \mapsto \unicode{x2115}, x \mapsto y $$
+    </li>
+
+    <li class="fragment fade-in">
+        $$ render: (var, var, markup) \mapsto C, (s,p,jsx) \mapsto <...> $$
+
+    </li>
+    <li class="fragment fade-in">
+        $$ hoc: C \mapsto C, c_1 \mapsto c_2 $$
+
+    </li>
+
+</ul>
+<div style="margin-top: 80px">
+    <table style="float:left">
+        <tr><td>N</td><td>ReactNode</td></tr>
+        <tr><td>E</td><td>ReactElement</td></tr>
+        <tr><td>C</td><td>ReactComponentElement</td></tr>
+    </table>
+    <table style="float:right">
+        <tr><td>s</td><td>state</td></tr>
+        <tr><td>p</td><td>props</td></tr>
+    </table>
+</div>
+<aside class="notes">
+    <ul>
+        <li>
+            everything is a function!
+        </li>
+        <li>
+            render belongs to the ReactComponent class
+        </li>
+    </ul>
+</aside>
