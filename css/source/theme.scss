@@ -37,10 +37,10 @@ $linkColor: #42affa;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 2.5em;
-$heading2Size: 1.6em;
-$heading3Size: 1.3em;
-$heading4Size: 1.0em;
+$heading1Size: 2.4em;
+$heading2Size: 1.5em;
+$heading3Size: 1.2em;
+$heading4Size: 0.9em;
 
 section.has-light-background {
 	&, h1, h2, h3, h4, h5, h6 {
@@ -51,3 +51,36 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+
+.MJXc-TeX-main-R {
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+
+.MJXc-TeX-ams-R {
+	font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw !important;
+}
+
+.reveal ul {
+	display: block;
+}
+
+.reveal pre code  {
+	margin-top: 10px;
+	max-height: 500px !important;
+}
+
+ul {
+	li {
+		margin-bottom: 30px !important;
+	}
+	&.list-unstyled {
+		list-style: none;
+		padding: 0;
+	}
+}
+
+#MathJax-Span-44 {
+	margin-right:10px;
+}
