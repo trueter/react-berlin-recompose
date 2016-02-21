@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Recompose",
+    "packageVersion": "0.0.1",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "trueter",
+    "githubRepository": "react-berlin-recompose"
+  }
+}
