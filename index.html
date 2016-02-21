@@ -56,6 +56,33 @@
                     
                     
                 
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/terminology.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/higher-order-components.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/redux-connect.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/redux-connect-ii.html"></section>
+
+
+                            
+                        </section>
+                    
+                
             </div>
 
         </div>
@@ -71,6 +98,7 @@
             progress: true,
             history: true,
             center: true,
+              showNotes: true,
 
             transition: 'slide', // none/fade/slide/convex/concave/zoom
 
@@ -82,7 +110,27 @@
               { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
               { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
               { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
-              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
+                // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+                // Interpret Markdown in <section> elements
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+                // Zoom in and out with Alt+click
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+
+
+                // Zoom in and out with Alt+click
+                { src: 'plugin/highlight/highlight.js', async: true },
+
+                // Speaker notes
+                { src: 'plugin/notes/notes.js', async: true },
+
+                // MathJax
+                { src: 'plugin/math/math.js', async: true }
+
             ]
           });
 

@@ -1,4 +1,10 @@
 [
     "index.md",
-    "me.md"
+    "me.md",
+    [
+        "terminology.html",
+        "higher-order-components.html",
+        "redux-connect.html",
+        "redux-connect-ii.html"
+    ]
 ]
