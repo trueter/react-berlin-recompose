@@ -12,9 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
-    
+
         <link rel="stylesheet" href="css/theme.css" id="theme">
-    
+
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
@@ -77,28 +77,9 @@
               { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
               { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( '[data-html]' ) || !!document.querySelector( 'pre code' ) || !!document.querySelector( '[data-markdown]' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
               { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'bower_components/reveal.js/plugin/math/math.js', async: true },
               { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
-              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
-                // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
-                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-
-                // Interpret Markdown in <section> elements
-                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-
-                // Zoom in and out with Alt+click
-                { src: 'plugin/zoom-js/zoom.js', async: true },
-
-
-                // Zoom in and out with Alt+click
-                { src: 'plugin/highlight/highlight.js', async: true },
-
-                // Speaker notes
-                { src: 'plugin/notes/notes.js', async: true },
-
-                // MathJax
-                { src: 'plugin/math/math.js', async: true }
-
+              { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
             ]
           });
 
