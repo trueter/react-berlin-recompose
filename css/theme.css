@@ -299,12 +299,15 @@ body {
   margin-top: 10px;
   max-height: 500px !important; }
 
-ul li {
-  margin-bottom: 30px !important; }
-
 ul.list-unstyled {
   list-style: none;
   padding: 0; }
 
 #MathJax-Span-44 {
   margin-right: 10px; }
+
+ul.space-list-items li {
+  margin-bottom: 30px !important; }
+
+.code-example {
+  border: 0 !important; }

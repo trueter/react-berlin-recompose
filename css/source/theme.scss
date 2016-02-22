@@ -72,9 +72,6 @@ section.has-light-background {
 }
 
 ul {
-	li {
-		margin-bottom: 30px !important;
-	}
 	&.list-unstyled {
 		list-style: none;
 		padding: 0;
@@ -83,4 +80,15 @@ ul {
 
 #MathJax-Span-44 {
 	margin-right:10px;
+}
+
+
+ul.space-list-items {
+	li {
+		margin-bottom: 30px !important;
+	}
+}
+
+.code-example {
+	border: 0 !important;
 }

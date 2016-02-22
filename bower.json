@@ -2,7 +2,7 @@
   "name": "recompose",
   "version": "0.0.1",
   "dependencies": {
-    "reveal.js": "~3.2.0",
+    "reveal.js": "trueter/reveal.js#f77ac64694f2dbcf660da31f4d1731afcdaf50a9",
     "highlightjs": "~9.0.0"
   }
 }
