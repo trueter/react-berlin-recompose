@@ -92,3 +92,16 @@ ul.space-list-items {
 .code-example {
 	border: 0 !important;
 }
+
+
+.photo-slide {
+	background: rgba( 0,0,0,0.3 );
+	padding: 0.5em !important;
+}
+
+
+.only-header {
+	h1, h2 {
+		margin: 0;
+	}
+}

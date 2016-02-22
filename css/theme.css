@@ -311,3 +311,10 @@ ul.space-list-items li {
 
 .code-example {
   border: 0 !important; }
+
+.photo-slide {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.5em !important; }
+
+.only-header h1, .only-header h2 {
+  margin: 0; }
