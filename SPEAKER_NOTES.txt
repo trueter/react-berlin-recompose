@@ -1,0 +1,45 @@
+## Intro
+
+Who does not know what a Higher Order Component is?
+
+## Me
+
+End of slide: Who knows the difference between a React Node, Element and Component?
+
+## Higher order components:
+
+Everything is a function
+
+WHo is using redux
+Keep up
+Who is using higher order components
+
+
+## ACD
+
+## Example 
+creates tight coupling, use higher order component to make sure the prop is available and provide if its not
+
+redux-simple-router formerly known as react-router, not to be confused with react-router-redux, which, in my opinion, is the best option today
+
+## Render performance
+
+Pure Render mixing
+
+
+## Drawbacks
+
+1. HOC not everyone’s cup of tea, might take some time to get into and leverage concepts like currying
+2. Since code should be re-used you need to consider more places to understand a certain feature
+    1. Thus its possible to write conflicting modifications, so use sparingly
+3. New components introduced to the tree / Can be addressed leveraging pure render from recompose
+
+## Benefits
+
+1. Keep your render functions small, go the linux and node approach to create little reusable modules that do one thing and do it well
+2. Stateless function components prevent abuse of state and are easier to optimize for React and V8 
+3. Important to keep in mind as your application is growing
+4. Save lines in render, merge service functionality into components from single place
+5. Decorators might still be a stage 0 proposal, but they offer a very declarative way of extending your components
+
+
