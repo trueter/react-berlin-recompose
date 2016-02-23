@@ -1,2 +1,2 @@
-# [View presentation](trueter.github.io/react-berlin-recompose)
+# [View presentation](http://trueter.github.io/react-berlin-recompose)
 
